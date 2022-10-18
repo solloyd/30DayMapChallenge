@@ -11,4 +11,5 @@ This is a collection of my #30daymapchallenge for 2022! For more information on 
 | QGIS          |               |               |
 
 
-For more of my portfolio please visit: (https://solloyd.wixsite.com/gisportfolio)
+
+You can find my full GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
