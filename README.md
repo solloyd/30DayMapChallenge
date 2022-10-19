@@ -7,12 +7,12 @@ I chose the theme **energy** as a central thread to this challenge! This is not 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  1            | 1             |
-| ArcGIS Online |               |               |
 | QGIS          |               |               |
+| ArcGIS Online |               |               |
 
 
 
-##### You can find my full GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
+##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
 
 ## Day One
 
@@ -22,7 +22,7 @@ Points. Looking at the power stations in Zambia in terms of type and amount of c
 
 I set out to use this 30 Day Challenge to refamiliarize myself with mapping in R, and potentially also learn QGIS. Today I realized this is going to be a lot harder than I originally thought... In ArcPro I could've produced a basic map like this in under a half hour, but in R let's say it took me muuuuuuch longer.
 
-Credit: [Wikipedia](https://en.wikipedia.org/wiki/List_of_power_stations_in_Zambia), [Google Maps](maps.google.com), [OpenInfraMap](https://openinframap.org/stats/area/Zambia/plants)
+Data Credits: [Wikipedia](https://en.wikipedia.org/wiki/List_of_power_stations_in_Zambia), [Google Maps](maps.google.com), [OpenInfraMap](https://openinframap.org/stats/area/Zambia/plants)
 
 <details><summary>Click Here for Day One's Code!</summary>
 <p>
@@ -66,7 +66,13 @@ ggplotly(dayone_map, tooltip="all")
 
 ## Day Two
 
-Lines.
+Lines. 
+
+I am reusing a map I made while working in the [FUEL Lab](fuel.seas.umich.edu) because this is such a cool concept (S/O Cheryl Weyant for the idea!). This depicts the electricity lines in Zimbabwe over nighttime lights imagery, so you can see where energy is being used and how that corresponds to the grid!
+
+<img src="https://user-images.githubusercontent.com/116127236/196807033-e5e9df16-7989-47e7-bf26-9f9902de885f.jpg" width="400" >
+
+Data Credits: [SEDAC](https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp-dlight), [EnergyData.Info](https://energydata.info/dataset/zimbabwe-electricity-transmission-network-2017)
 
 ## Day Three
 
@@ -78,7 +84,9 @@ Color Friday: Green
 
 ## Day Five
 
-Ukraine
+Ukraine.
+
+I was going to make a bubble map, similar to what I did on Day One, showing the size of city's populations and color them based on whether or not they are under Russian occupation, but there is already a great map out there doing that: [Russo-Ukranian War](https://en.wikipedia.org/wiki/Template:Russo-Ukrainian_War_detailed_map)
 
 ## Day Six
 
@@ -146,7 +154,7 @@ Data: Kontour Population Dataset
 
 ## Day Twenty-Two
 
-*NULL*
+*NULL* (adj.) having or associated with the value zero.
 
 ## Day Twenty-Three
 
