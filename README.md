@@ -2,7 +2,7 @@
 
 This is a collection of my #30daymapchallenge for 2022! For more information on the challenge, please visit: https://30daymapchallenge.com
 
-
+I chose the theme **energy** as a central thread to this challenge to help me refamiliarize myself with data sources I haven't worked with recently, as well as a way to find new datasets.
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
@@ -73,3 +73,63 @@ Hexagons
 ## Day Fifteen
 
 Food/drink
+
+## Day Sixteen
+
+Minimal
+
+## Day Seventeen
+
+A map without a computer
+
+## Day Eighteen
+
+Color Friday: Blue
+
+## Day Nineteen
+
+Globe
+
+## Day Twenty
+
+"My favorite..."
+
+## Day Twenty-One
+
+Data: Kontour Population Dataset
+
+## Day Twenty-Two
+
+*NULL*
+
+## Day Twenty-Three
+
+Movement
+
+## Day Twenty-Four
+
+Fantasy
+
+## Day Twenty-Five
+
+Color Friday: 2 colors
+
+## Day Twenty-Six
+
+Island(s)
+
+## Day Twenty-Seven
+
+Music
+
+## Day Twenty-Eight
+
+3D
+
+## Day Twenty-Nine
+
+"Out of my comfort zone"
+
+## Day Thirty
+
+Remix
