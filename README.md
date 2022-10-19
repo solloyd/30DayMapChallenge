@@ -2,7 +2,7 @@
 
 This is a collection of my #30daymapchallenge for 2022! For more information on the challenge, please visit: https://30daymapchallenge.com
 
-I chose the theme **energy** as a central thread to this challenge to help me refamiliarize myself with data sources I haven't worked with recently, as well as a way to find new datasets.
+I chose the theme **energy** as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently.
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
