@@ -154,7 +154,8 @@ Data: Kontour Population Dataset
 
 ## Day Twenty-Two
 
-*NULL* (adj.) having or associated with the value zero.
+*NULL* 
+(adj.) having or associated with the value zero. [Sustainable Development Goal 7.1.2] (https://sdg.tracking-progress.org/indicator/7-1-2-population-with-primary-reliance-on-clean-fuels-and-technology/) aims to ensure universal access to affordable, reliable and modern energy services, specifically clean fuels and technologies. The International 
 
 ## Day Twenty-Three
 
