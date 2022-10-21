@@ -1,22 +1,24 @@
-# 30DayMapChallenge 2022
+# 30DayMapChallenge 2022 :world_map:
 
 This is a collection of my #30daymapchallenge for 2022! For more information on the challenge, please visit: https://30daymapchallenge.com
 
-I chose the theme **energy** as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently.
+I chose the theme :low_brightness:**energy**:low_brightness: as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently.
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  1            | 1             |
+| R             |  2            | 1,22          |
 | QGIS          |               |               |
 | ArcGIS Online |               |               |
-
+| ArcPro        | 1             | 2             |
 
 
 ##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
 
 ## Day One
 
-Points. Looking at the power stations in Zambia in terms of type and amount of capacity!
+📍 Points. 
+
+Looking at the power stations in Zambia in terms of type and amount of capacity!
 
 ![dayone_map.pdf](https://github.com/solloyd/30daymapchallenge/files/9824199/dayone_map.pdf)
 
@@ -27,7 +29,7 @@ Data Credits: [Wikipedia](https://en.wikipedia.org/wiki/List_of_power_stations_i
 <details><summary>Click Here for Day One's Code!</summary>
 <p>
 
-### Find below the code used for this map, and click here for the [Zambia Power Station Dataset](https://drive.google.com/drive/u/1/folders/1Bz-Pcke20iVJmTjPsvE0Ws2ZZJZ2u3v1) I created :)
+### Find below the code used for this map, and click here for the [Zambia Power Station Dataset](https://drive.google.com/file/d/1K6_roQEkf_d_DC8YL2-iIxy61s8S8yHB/view?usp=sharing) I created :)
 
 ```ruby
 library(ggplot2)              
@@ -66,7 +68,7 @@ ggplotly(dayone_map, tooltip="all")
 
 ## Day Two
 
-Lines. 
+〰️ Lines. 
 
 I am reusing a map I made while working in the [FUEL Lab](fuel.seas.umich.edu) because this is such a cool concept (S/O Cheryl Weyant for the idea!). This depicts the electricity lines in Zimbabwe over nighttime lights imagery, so you can see where energy is being used and how that corresponds to the grid!
 
@@ -76,115 +78,156 @@ Data Credits: [SEDAC](https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp
 
 ## Day Three
 
-Polygons.
+🔲 Polygons.
 
 ## Day Four
 
-Color Friday: Green
+💚 Color Friday: Green
 
 ## Day Five
 
-Ukraine.
+🇺🇦 Ukraine.
 
 I was going to make a bubble map, similar to what I did on Day One, showing the size of city's populations and color them based on whether or not they are under Russian occupation, but there is already a great map out there doing that: [Russo-Ukranian War](https://en.wikipedia.org/wiki/Template:Russo-Ukrainian_War_detailed_map)
 
 ## Day Six
 
-Network
+🌐 Network
 
 ## Day Seven
 
-Raster
+🖼️ Raster
 
 ## Day Eight
 
-Data: OpenStreetMap
+📖 Data: OpenStreetMap
 
 ## Day Nine
 
-Space
+👾 Space
 
 ## Day Ten
 
-A bad map
+🙃 A bad map
 
 ## Day Eleven
 
-Color Friday: Red
+🔴 Color Friday: Red
 
 ## Day Twelve
 
-Scale
+⚖️ Scale
 
 ## Day Thirteen
 
-5 minute map
+⏲️ 5 minute map
 
 ## Day Fourteen
 
-Hexagons
+💠 Hexagons
 
 ## Day Fifteen
 
-Food/drink
+🥘/🍹 Food/drink
 
 ## Day Sixteen
 
-Minimal
+🪧 Minimal
 
 ## Day Seventeen
 
-A map without a computer
+🌲 A map without a computer
 
 ## Day Eighteen
 
-Color Friday: Blue
+🚙 Color Friday: Blue
 
 ## Day Nineteen
 
-Globe
+🗺️ Globe
 
 ## Day Twenty
 
-"My favorite..."
+🤟 "My favorite..."
 
 ## Day Twenty-One
 
-Data: Kontour Population Dataset
+💻 Data: Kontour Population Dataset
 
 ## Day Twenty-Two
 
-*NULL* 
-(adj.) having or associated with the value zero. [Sustainable Development Goal 7.1.2] (https://sdg.tracking-progress.org/indicator/7-1-2-population-with-primary-reliance-on-clean-fuels-and-technology/) aims to ensure universal access to affordable, reliable and modern energy services, specifically clean fuels and technologies. The International 
+:o: *NULL* 
+
+Null (adj.) having or associated with the value zero. 
+
+[Sustainable Development Goal 7.1.2](https://sdg.tracking-progress.org/indicator/7-1-2-population-with-primary-reliance-on-clean-fuels-and-technology/) aims to ensure universal access to affordable, reliable and modern energy services, specifically clean fuels and technologies. The International Energy Agency (IEA) provides projections for this SDG through 2050.  **This map illustrates that with the current level of funding in the sector, and the projected policies, this SDG will not be reached by 2030 for any sub-Saharan country.**
+
+![daytwentytwo_map.pdf](https://github.com/solloyd/30daymapchallenge/files/9834915/daytwentytwo_map.pdf)
+
+Data Credits: [IEA](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Sustainable%20Development%20Goals&indicator=SDG712), [ggplot2 resource](https://ggplot2-book.org/maps.html)
+
+<details><summary>Click Here for Day Twenty-Two's Code!</summary>
+<p>
+
+### Find below the code used for this map, and click here for the [Africa Clean Cooking Access Dataset](https://drive.google.com/file/d/1K6_roQEkf_d_DC8YL2-iIxy61s8S8yHB/view?usp=sharing) I created :)
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+library(viridis)
+library(RColorBrewer)
+
+CookingAccess <- read.csv("~/ADD YOUR PATH HERE/cookingaccessafrica.csv") 
+
+
+mapdata <- map_data("world") 
+mapdata <- right_join(mapdata, CookingAccess, by="region")
+
+unique(mapdata$region) #This is to help match the country names in map_data() to those in my file (i.e., Eswatini or Swaziland)
+           
+daytwentytwo <- ggplot(mapdata, aes(long, lat, group = group)) +
+  geom_polygon(aes(fill = SDG2030), colour = alpha("black"), size = 0.15) +
+coord_fixed() +
+  theme_minimal() +
+  ggtitle("Countries with Universal Access to Clean Cooking by 2030 (SDG 7.1.2)") +
+  theme(axis.line = element_blank(), axis.text = element_blank(),
+        axis.ticks = element_blank(), axis.title = element_blank(),
+        plot.title = element_text(size=12, face="bold.italic"), panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_fill_brewer(palette = "Greys", guide = guide_legend(reverse = FALSE, title = "")) 
+    
+```
+        
+</p>
+</details>
 
 ## Day Twenty-Three
 
-Movement
+🏃‍♀️ Movement
 
 ## Day Twenty-Four
 
-Fantasy
+✴️ Fantasy
 
 ## Day Twenty-Five
 
-Color Friday: 2 colors
+💕 Color Friday: 2 colors
 
 ## Day Twenty-Six
 
-Island(s)
+🇮🇨 Island(s)
 
 ## Day Twenty-Seven
 
-Music
+🎼 Music
 
 ## Day Twenty-Eight
 
-3D
+🎉 3D
 
 ## Day Twenty-Nine
 
-"Out of my comfort zone"
+:basecamp: "Out of my comfort zone"
 
 ## Day Thirty
 
-Remix
+💿 Remix
