@@ -2,7 +2,7 @@
 
 This is a collection of my #30daymapchallenge for 2022! For more information on the challenge, please visit: https://30daymapchallenge.com
 
-I chose the theme :low_brightness:**energy**:low_brightness: as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently.
+I chose the theme :low_brightness:**energy**:low_brightness: as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently. Additionally, I'm setting out to use this challenge as a way to strengthen my R mapping skills, and completely learn QGIS, as basically all of my formal education was taught using ArcMap and then ArcPro from ESRI.
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
