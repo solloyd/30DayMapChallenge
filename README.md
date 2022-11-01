@@ -6,7 +6,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |               |               |
+| R             |  1             | 1              |
 | QGIS          |               |               |
 | ArcGIS Online |               |               |
 | ArcPro        |               |               |
@@ -17,6 +17,58 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 ## Day One
 
 📍 Points. 
+
+Looking at the power stations in Zambia in terms of type and amount of capacity!
+
+![dayone_map.pdf](https://github.com/solloyd/30daymapchallenge/files/9824199/dayone_map.pdf)
+
+I set out to use this 30 Day Challenge to refamiliarize myself with mapping in R, and potentially also learn QGIS. Today I realized this is going to be a lot harder than I originally thought... In ArcPro I could've produced a basic map like this in under a half hour, but in R let's say it took me muuuuuuch longer.
+
+Data Credits: [Wikipedia](https://en.wikipedia.org/wiki/List_of_power_stations_in_Zambia), [Google Maps](maps.google.com), [OpenInfraMap](https://openinframap.org/stats/area/Zambia/plants)
+
+<details><summary>Click Here for Day One's Code!</summary>
+<p>
+
+#### Find below the code used for this map, and click here for the [Zambia Power Station Dataset](https://drive.google.com/file/d/1K6_roQEkf_d_DC8YL2-iIxy61s8S8yHB/view?usp=sharing) I pulled together :)
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+library(viridis) #played around with these colors, but did not end up on the final
+library(plotly)
+
+
+PowerStation <- read.csv("~/ADD YOUR PATH HERE/PowerStations_Zambia.csv") 
+
+
+mapdata <- map_data("world") 
+mapdata <- right_join(mapdata, PowerStation, by="region")
+
+
+dayone_map <- ggplot(PowerStation, aes(x=Long, y=Lat)) +
+        geom_polygon(data = mapdata, aes(x=long, y = lat), fill="grey", color="black", alpha=0.9)+
+  geom_point(aes(size=Capacity_MW, color=Type), alpha=0.5) +
+  ggtitle("Power Stations in Zambia by Capacity and Type") +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        plot.title = element_text(size=14, face="bold.italic")) +
+  scale_size_continuous(breaks=c(5, 25, 50, 100, 250, 500, 750), name="Capacity (MW)", range = c(5,20))
+
+dayone_map
+
+#Make the map interactive!
+ggplotly(dayone_map, tooltip="all")
+```
+
+</p>
+</details>
+
+## Day Two
+
+〰️ Lines. 
 
 ## Day Three
 
