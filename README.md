@@ -71,7 +71,7 @@ ggplotly(dayone_map, tooltip="all")
 
 I am reusing a map I made while working in the [FUEL Lab](fuel.seas.umich.edu) because this is such a cool concept (S/O Cheryl Weyant for trusting me with the execution!). This depicts the electricity lines in Zimbabwe over nighttime lights imagery, so you can see where energy is being used and how that corresponds to the grid!
 
-<img src="https://user-images.githubusercontent.com/116127236/199257515-23867bae-eee1-4a4f-852a-7a4cbea83502.png" width="400" >
+<img src="https://user-images.githubusercontent.com/116127236/199527752-52128ffb-c1b8-4553-845d-e84f90f56d17.jpg" width="400" >
 
 Data Credits: [SEDAC](https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp-dlight), [EnergyData.Info](https://energydata.info/dataset/zimbabwe-electricity-transmission-network-2017)
 
