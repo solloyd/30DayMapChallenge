@@ -8,7 +8,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | ------------- | ------------- | ------------- |
 | R             |  1            | 1             |
 | QGIS          |               |               |
-| ArcPro        |               |               |
+| ArcPro        |   1            |  2             |
 
 
 ##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
@@ -68,6 +68,12 @@ ggplotly(dayone_map, tooltip="all")
 ## Day Two
 
 〰️ Lines. 
+
+I am reusing a map I made while working in the [FUEL Lab](fuel.seas.umich.edu) because this is such a cool concept (S/O Cheryl Weyant for trusting me with the execution!). This depicts the electricity lines in Zimbabwe over nighttime lights imagery, so you can see where energy is being used and how that corresponds to the grid!
+
+<img src="https://user-images.githubusercontent.com/116127236/199257515-23867bae-eee1-4a4f-852a-7a4cbea83502.png" width="400" >
+
+Data Credits: [SEDAC](https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp-dlight), [EnergyData.Info](https://energydata.info/dataset/zimbabwe-electricity-transmission-network-2017)
 
 ## Day Three
 
