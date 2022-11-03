@@ -6,7 +6,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  1            | 1             |
+| R             |  2            | 1,3             |
 | QGIS          |               |               |
 | ArcPro        |   1            |  2             |
 
@@ -78,6 +78,55 @@ Data Credits: [SEDAC](https://sedac.ciesin.columbia.edu/data/set/sdei-viirs-dmsp
 ## Day Three
 
 🔲 Polygons.
+
+The US uses a lot of energy... that is no surprise to anyone, but how much are Americans using in each state? The top five states based on consumption per capita are (in million BTU): Louisiana (903), Alaska (874), Wyoming (874), North Dakota (804), and Iowa (479). I used a diverging color palette for this map to show the wide range of values - you can see the top three states clearly in the green, followed by a handful of light yellow states, and many light and dark orange states. This is the importance of colors scales... (hint for a future day)
+
+Check out Day Three's map to find out more! 
+
+![daythree_map.pdf](https://github.com/solloyd/30DayMapChallengeDRAFT/files/9890470/daythree_map.pdf)
+
+Data Credit: [US Energy Information Administration](https://www.eia.gov/state/?sid=US)
+
+<details><summary>Click Here for Day Three's Code!</summary>
+<p>
+
+### Find below the code used for this map, and click here for the [Consumption per Cpatia Dataset](https://drive.google.com/file/d/1pOy9N37P7k5RFaZ_V14dy0a5OBG55C-n/view?usp=sharing) :)
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+
+EnergyConsumption <- read.csv("~/ADD YOUR PATH HERE/SelectedStateRankingsData.csv") 
+
+mapdata3 <- map_data("state") ##ggplot2
+mapdata3 <- right_join(mapdata3, EnergyConsumption, by="region")
+
+
+daythree <- ggplot(mapdata3, aes(x=long, y=lat, group=group)) +
+        geom_polygon(aes(fill=consumption_capita), color="black", alpha=0.9)+
+  coord_fixed() +
+  theme_light()+
+  ggtitle("Energy Consumption per Capita (2020)") +
+  theme(axis.line = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        plot.title = element_text(size=14, face="bold.italic", hjust = 0.5),
+        legend.title = element_text(size=10), legend.text = element_text(size = 8),
+        legend.position = "right") +
+  scale_fill_distiller(name="Consumption per Capita\n(million BTU)",
+                       palette = "RdYlGn",
+                       direction = 1)
+
+daythree
+        
+```
+
+</p>
+</details>
 
 ## Day Four
 
