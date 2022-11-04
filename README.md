@@ -6,7 +6,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  3            | 1,3             |
+| R             |  2            | 1,3             |
 | QGIS          |   1            |  4             |
 | ArcPro        |   1            |  2             |
 
