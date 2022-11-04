@@ -6,7 +6,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  2            | 1,3             |
+| R             |  3            | 1,3,4             |
 | QGIS          |               |               |
 | ArcPro        |   1            |  2             |
 
@@ -131,6 +131,20 @@ daythree
 ## Day Four
 
 💚 Color Friday: Green
+
+To many, EVs are seen as the future of the car industry, but how much momentum is the EV industry having as compared to "traditional" vehicles? In 2020, EV sales made up 4% of all vehicle sales. IEA's [Stated Policies Scenario (STEPS)](https://www.iea.org/reports/global-energy-and-climate-model/stated-policies-scenario-steps), which is described as "a more conservative benchmark for the future", shows that EV sales share for cars by 2025 is 15%, and by 2030 this increases to only 22%🥲
+
+In the US, where [over 90% of adults commute to work in a personal vehicle](https://www.bts.gov/archive/publications/highlights_of_the_2001_national_household_travel_survey/section_01), by 2030 we are just below the world average at 21% od EV sales share for cars.
+
+According to a [2021 article by McKinsey & Co](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/leaving-the-niche-seven-steps-for-a-successful-go-to-market-model-for-electric-vehicles), the biggest challenges facing manufacturers are:
+- Regulatory Environment
+- Customers
+- EV Infrastructure
+- EV Business Case and Profitability
+
+<img src="https://user-images.githubusercontent.com/116127236/198754238-1a44ed1f-0649-446f-88e9-c6633fa291d1.jpeg" width="800" >
+
+Data Credit: IEA (2021), Clean Energy Transition Indicators, IEA, Paris https://www.iea.org/data-and-statistics/data-tools/clean-energy-transition-indicators; [IEA Global EV Data Explorer](https://www.iea.org/articles/global-ev-data-explorer)
 
 ## Day Five
 
