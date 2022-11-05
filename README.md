@@ -7,7 +7,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  2            | 1,3             |
-| QGIS          |   1            |  4             |
+| QGIS          |   2            |  4,5             |
 | ArcPro        |   1            |  2             |
 
 
@@ -148,7 +148,17 @@ Data Credit: IEA (2021), Clean Energy Transition Indicators, IEA, Paris https://
 
 ## Day Five
 
-🇺🇦 Ukraine.
+🇺🇦 Ukraine
+
+I was going to make a bubble map, similar to what I did on Day One, showing the size of city's populations and color them based on whether or not they are under Russian occupation, but there is already a great map out there doing that: [Russo-Ukranian War](https://en.wikipedia.org/wiki/Template:Russo-Ukrainian_War_detailed_map)
+
+Instead I repurposed the data, and looked at population of Oblasts in relation to power plant locations. I'm having a lot of fun exploring the cartographic possibilities of QGIS!
+
+Слава Україні
+
+<img src="https://user-images.githubusercontent.com/116127236/199155811-ff6382cf-0e98-4460-8bf8-fe66d0493cd5.jpeg" width="650" >
+
+Data Credit: [Population Data](https://www.statista.com/statistics/1295222/ukraine-population-by-region/), [Oblast Shapefile](https://data.humdata.org/dataset/cod-ab-ukr?)
 
 ## Day Six
 
