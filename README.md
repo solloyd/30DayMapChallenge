@@ -7,7 +7,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  2            | 1,3             |
-| QGIS          |   2            |  4,5             |
+| QGIS          |   3            |  4,5,6             |
 | ArcPro        |   1            |  2             |
 
 
@@ -164,9 +164,20 @@ Data Credit: [Population Data](https://www.statista.com/statistics/1295222/ukrai
 
 🌐 Network
 
+For Sunday, Day Six, I decided to step outside of the conventional data box I have been in and try something more fun - the networks of travel modes I'll be utilizing for my trip to 🏴󠁧󠁢󠁳󠁣󠁴󠁿Scotland🏴󠁧󠁢󠁳󠁣󠁴󠁿 in April! My main agenda item is to hike the 96 mile [West Highland Way](https://www.westhighlandway.org) and bag the highest peak in the UK, Ben Nevis, which should only take 8 out of the 14 days I will be in the country, so I'll then bus over to Iverness to see the Loch Ness (Monster👀) and take the train around the east coast to see castles in Aberdeen and beaches in Dundee😍 before flying back out of Edinburgh✈️
+
+<img src="https://user-images.githubusercontent.com/116127236/200095416-e19898cf-281f-4840-ae8e-f51ca7f63d84.jpg" width="650" >
+
+Data Credit: [Scotland Rail Data](https://data.amerigeoss.org/dataset/hotosm_gbr_scotland_railways), [Natural Earth](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/), [West Highland Way GPX](https://www.walkingenglishman.com/ldp/westhighlandway.htm#google_vignette), <a href="https://www.flaticon.com/free-icons/footprint" title="footprint icons">Footprint icons created by Eucalyp - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/dinosaur" title="dinosaur icons">Dinosaur icons created by smalllikeart - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/train" title="train icons">Train icons created by Icongeek - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/info" title="info icons">Info icons created by Freepik - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/bus" title="bus icons">Bus icons created by Freepik - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/mail" title="mail icons">Mail icons created by Freepik - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/mission" title="mission icons">Mission icons created by Freepik - Flaticon</a>, <a href="https://www.flaticon.com/free-icons/castle" title="castle icons">Castle icons created by Freepik - Flaticon</a>, [Stamen Base Map](http://maps.stamen.com/watercolor/#12/37.7706/-122.3782
+
 ## Day Seven
 
 🖼️ Raster
+
+Raster Data is my least favorite type of data to work with, so I had not felt inspired and made other maps first.. plus I ran my first Spartan Race yesterday and have no energy to make the map today for Day Seven. **So instead, please enjoy this meme from Alicia :)**
+
+<img width="500" alt="@aliciaoberhol" src="https://user-images.githubusercontent.com/116127236/200440323-15da72cd-0e4e-48c9-a5a4-3ccca182c382.jpeg">
+[@aliciaoberhol on Twitter](https://twitter.com/aliciaoberhol/status/1589608071797493760/photo/1)
 
 ## Day Eight
 
