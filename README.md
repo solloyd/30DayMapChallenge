@@ -7,7 +7,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  2            | 1,3             |
-| QGIS          |   3            |  4,5,6             |
+| QGIS          |   4            |  4,5,6,8             |
 | ArcPro        |   1            |  2             |
 
 
@@ -182,6 +182,14 @@ Raster Data is my least favorite type of data to work with, so I had not felt in
 ## Day Eight
 
 📖 Data: OpenStreetMap
+
+According to the IEA, in 2019 the Republic of Korea (*also referred to as South Korea*) is the leading country for [Passenger transport energy intensity](https://www.iea.org/data-and-statistics/data-tools/clean-energy-transition-indicators) at 1.98 MJ/pkm (energy consumption / passenger-kilometers).
+
+These data were pulled from Open Street Map via [GeoFabrik](https://www.geofabrik.de/data/download.html) and analyzed in **QGIS**
+
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/116127236/200441965-4d390dca-129d-407d-8d63-f00494b25d52.jpg">
+
+Data Credits: [Korea SHP](https://gadm.org/download_country_v3.html#google_vignette), [OSM Data](http://download.geofabrik.de/asia.html)
 
 ## Day Nine
 
