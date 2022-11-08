@@ -90,7 +90,7 @@ Data Credit: [US Energy Information Administration](https://www.eia.gov/state/?s
 <details><summary>Click Here for Day Three's Code!</summary>
 <p>
 
-### Find below the code used for this map, and click here for the [Consumption per Cpatia Dataset](https://drive.google.com/file/d/1pOy9N37P7k5RFaZ_V14dy0a5OBG55C-n/view?usp=sharing) :)
+### Find below the code used for this map, and click here for the [Consumption per Captia Dataset](https://drive.google.com/file/d/1pOy9N37P7k5RFaZ_V14dy0a5OBG55C-n/view?usp=sharing) :)
 
 ```ruby
 library(ggplot2)              
