@@ -193,7 +193,32 @@ Data Credits: [Korea SHP](https://gadm.org/download_country_v3.html#google_vigne
 
 ## Day Nine
 
-👾 Space
+🪐 Space
+
+I was inspired by a map put together by John Nelson @ESRI (you can find his [tutorial here!](https://www.youtube.com/watch?v=ijVEvzTzlNo&t=2s)), which is intended as an 80s war room map, but it reminded me of the video game 👾*Space Invaders*👾 I figured out how to replicate this map in QGIS, with flight data from [The OpenSky Network](https://zenodo.org/record/7065179#.Y2BGjS1h3UI) on the same day one year ago.
+
+I couldn't decide which version, so here is both:
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/116127236/199865308-eeb036bf-512c-4f01-82a4-59b12ee4b2ca.png">
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/116127236/199865249-4a0bd69e-2a61-4ba4-bbe0-eb49340f6793.png">
+
+Data Credit: [Natural Earth Data](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/), [The OpenSky Network](https://zenodo.org/record/7065179#.Y2BGjS1h3UI), [Project Linework](https://www.projectlinework.org), Matthias Schäfer, Martin Strohmeier, Vincent Lenders, Ivan Martinovic and Matthias Wilhelm. "Bringing Up OpenSky: A Large-scale ADS-B Sensor Network for Research". In Proceedings of the 13th IEEE/ACM International Symposium on Information Processing in Sensor Networks (IPSN), pages 83-94, April 2014.Xavier Olive. "traffic, a toolbox for processing and analysing air traffic data." Journal of Open Source Software 4(39), July 2019.
+
+<details><summary>Click Here for a helpful QGIS tip!</summary>
+<p>
+When attempting to map a line from two points in the same CSV file... Google is a worm hole of adjacent answers that will not help you in a timely manner. You will then find the answer, use it, and rejoice, only to be even more disappointed when you need it for a future project and cannot find it.
+        
+This is both my solution to you, fictional person's, problem and my own future self's. Below you will find the one line of code to quickly and easily map one line based on two points in one CSV file. I am sorry I cannot credit the person who gave me this solution because, due to the aforementioned worm hole, I cannot find it again.
+
+```ruby
+# Used in QGIS 3.22.11
+# First map point "1", then go to Properties > Symbology > Simple Marker and change this to "Geometry Generator" then enter the following code:
+make_line( make_point( "longitude_1","latitude_1"),make_point( "longitude_2","latitude_2"))      
+```
+
+</p>
+</details>
 
 ## Day Ten
 
