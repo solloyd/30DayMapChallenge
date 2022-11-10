@@ -6,7 +6,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 
 | Software      | Count         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  2            | 1,3             |
+| R             |  3            | 1,3,10             |
 | QGIS          |   5            |  4,5,6,8,9             |
 | ArcPro        |   1            |  2             |
 
@@ -223,6 +223,49 @@ make_line( make_point( "longitude_1","latitude_1"),make_point( "longitude_2","la
 ## Day Ten
 
 🙃 A bad map
+
+This is not what I had intended, but thought I would use Day Ten as a reminder that coding is never as easy as it seems, and the process between having an idea for a map and the final file involves *a lot* of messiness. This is a great example - I was making Day 19's map and could not get the country polygons to display any colors, only all black. I began playing around with the code because I could not figure out the issue, and happened into this **bad** map. Enjoy!
+
+![dayten_map.pdf](https://github.com/solloyd/30DayMapChallengeDRAFT/files/9841111/dayten_map.pdf)
+
+Data Credits: [RISE](https://rise.esmap.org/analytics)
+
+<details><summary>Click Here for Day Ten's Code - See if you can spot my mistake!</summary>
+<p>
+
+### Find below the code used for this map, and click here for the [RISE Energy Efficiency Dataset](https://drive.google.com/file/d/1YFZ3QYsqed9R5uwYzNm7kAvqbb36pHoh/view?usp=sharing) !
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+
+        
+EnergyEfficiency <- read.csv("~/ADD YOUR PATH HERE/energyefficiency.csv") 
+
+
+mapdata <- map_data("world") ##ggplot2
+mapdata <- left_join(mapdata, EnergyEfficiency, by="region")
+
+#unique(mapdata19$region) 
+dayten <- ggplot(mapdata) +
+  geom_polygon(aes(long, lat, group = EE11, fill = factor(EE11)), color = alpha("black"), size = 0.15) +
+coord_fixed() +
+  theme_minimal() +
+  ggtitle("Global RISE Scores") +
+  theme(axis.line = element_blank(), 
+        axis.text = element_blank(),
+        axis.ticks = element_blank(), 
+        axis.title = element_blank(),
+        plot.title = element_text(size=12, face="bold.italic"), 
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank()) 
+  #+ scale_fill_brewer(palette = "Greys") 
+
+dayten
+        
+```
+
+</p>
+</details>
 
 ## Day Eleven
 
