@@ -4,12 +4,12 @@ This is a collection of my #30daymapchallenge for 2022! For more information on 
 
 I chose the theme :low_brightness:**energy**:low_brightness: as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently. Additionally, I'm setting out to use this challenge as a way to strengthen my R mapping skills, and completely learn QGIS, as basically all of my formal education was taught using ArcMap and then ArcPro from ESRI.
 
-| Software      | Count         | Days          |
+| Software      | Count*         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  3            | 1,3,10             |
-| QGIS          |   5            |  4,5,6,8,9             |
+| R             |  5            | 1,3,10,12,19             |
+| QGIS          |   8            |  4,5,6,8,9,11,14,18             |
 | ArcPro        |   1            |  2             |
-
+###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
 
 ##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
 
@@ -271,17 +271,109 @@ dayten
 
 🔴 Color Friday: Red
 
+I know - A boring chloropleth map?! Shannon why! Well, I'll tell you - this makes my 19th map (I made a few the last week of October, largely out of order), and my creative juices are running dry☹️ BUT FEAR NOT! I am going to spend the next 7 days off-grid backpacking in South Carolina, so I will be back and ready to knock out more maps then😏
+
+<img src="https://user-images.githubusercontent.com/116127236/200978561-a9752c6a-fc7a-4978-9ee9-3311e19c65f1.jpg" width="600" >
+
+Data Credits: [US EIA](https://www.eia.gov/state/)
+
 ## Day Twelve
 
 ⚖️ Scale
+
+Color scales are important because they can help better inform your audience of the message you are looking to convey. For example, on Day Three I used a divering color scale rather than a sequential one because it was hard to distinguish the medium to low values with the latter. For Day Twelve, I'm taking my Day Three map and changing the color scale to a sequential one to demonstrate this.
+
+<img src="https://github.com/solloyd/30DayMapChallengeDRAFT/files/9890903/daytwelve_map.pdf" width="600" >
+
+Data Credit: [US Energy Information Administration](https://www.eia.gov/state/?sid=US)
+
+<details><summary>Click Here for Day Twelve's Code!</summary>
+<p>
+
+### Find below the code used for this map, and click here for the [Consumption per Cpatia Dataset](https://drive.google.com/file/d/1pOy9N37P7k5RFaZ_V14dy0a5OBG55C-n/view?usp=sharing) :)
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+library(gridExtra)
+
+EnergyConsumption <- read.csv("~/ADD YOUR PATH HERE/SelectedStateRankingsData.csv") 
+
+mapdata3 <- map_data("state") ##ggplot2
+mapdata3 <- right_join(mapdata3, EnergyConsumption, by="region")
+
+daythree2 <- ggplot(mapdata3, aes(x=long, y=lat, group=group)) +
+        geom_polygon(aes(fill=consumption_capita), color="black", alpha=0.9)+
+  coord_fixed() +
+  theme_light()+
+  ggtitle("Day 3: Energy Consumption per Capita (2020)") +
+  theme(axis.line = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        plot.title = element_text(size=14, face="bold.italic", hjust = 0.5),
+        legend.title = element_text(size=10), legend.text = element_text(size = 8),
+        legend.position = "right") +
+  scale_fill_distiller(name="Consumption per Capita\n(million BTU)",
+                       palette = "RdYlGn",
+                       direction = 1)
+
+        
+daytwelve <- ggplot(mapdata3, aes(x=long, y=lat, group=group)) +
+        geom_polygon(aes(fill=consumption_capita), color="black", alpha=0.9)+
+  coord_fixed() +
+  theme_light()+
+  ggtitle("Day 12: Energy Consumption per Capita (2020)") +
+  theme(axis.line = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        plot.title = element_text(size=14, face="bold.italic", hjust = 0.5),
+        legend.title = element_text(size=10), legend.text = element_text(size = 8),
+        legend.position = "right") +
+  scale_fill_distiller(name="Consumption per Capita\n(million BTU)",
+                       palette = "OrRd",
+                       direction = 1)
+
+             
+daytwelve_map <- grid.arrange(daytwelve, daythree2)
+
+daytwelve_map
+        
+```
+
+</p>
+</details>
 
 ## Day Thirteen
 
 ⏲️ 5 minute map
 
+For today, I'm slightly diverging from the **energy** theme, but this was such a fun tool that's been going around the internet! I can't ever pass up viral geography-related trends😃 Can you tell I'm a native East Coaster, turned MidWest transplant?
+
+<img src="https://user-images.githubusercontent.com/116127236/198654812-1841fe18-45e3-4953-b6fe-e0aee3837ba4.PNG" width="450" >
+
+Data Credit: [Tool (Best used on mobile)](https://tenpages.github.io/us-level/us.html)
+
 ## Day Fourteen
 
 💠 Hexagons
+
+For Day 14, I was inspired by John Nelson @ESRI's [hexagon map tutorial](https://www.youtube.com/watch?v=JlZMGDeNpTc), and was originally going to use the same flight data I used for my Day Nine map. However, it wasn't coming out the way I hoped, so I pivoted to use wind turbine data I first found for Day 18's map! It's been a great learning experience to watch John's ArcPro tutorials and figure out how to replicate them in QGIS🤩
+
+And what is quickly becoming the status quo, I was playing around with QGIS's cartographic capabilities, and couldn't pick just one:
+
+<img src="https://user-images.githubusercontent.com/116127236/200066241-838210f4-761c-40e8-894e-f26e7fcf7920.jpg" width="800" >
+
+<img src="https://user-images.githubusercontent.com/116127236/200066638-3e68e3df-fbc9-4290-b0ad-f0b47b2ea12f.jpg" width="800" >
+
+Data Credits: [US Wind Turbine Data](https://emp.lbl.gov/publications/us-wind-turbine-database-files),[Watercolor Base Map](http://maps.stamen.com/watercolor/#12/37.7706/-122.3782)
 
 ## Day Fifteen
 
@@ -295,13 +387,79 @@ dayten
 
 🌲 A map without a computer
 
+This is a map I happened across while backpacking the Jordan River Valley Pathway near East Jordan, MI! Highly recommend this during peak fall colors, it was a super relaxing way to spend the weekend😍
+
+<img src="https://user-images.githubusercontent.com/116127236/197655601-914b70c4-c2c5-451d-bcd5-017363d9c2fd.jpeg" width="400" >
+
+Honorable mention is this map that saved me from becoming lost on a forest service road when the trail wasn't exactly opposite the spot I came out of. It also set me down an existential path of wondering what a "map" is or isn't for the next mile of my hike... This sign showed me where I'd been and where I was going, so my verdict was: it was a map! We actually did a similar thought experiment in Dr. Patton's Cartography class at UNCG on one of the first days of the semester.
+
+<img src="https://user-images.githubusercontent.com/116127236/197656022-30d0542f-dfbd-4a0e-806e-3d8cd352ddd5.jpeg" width="300" >
+
+
 ## Day Eighteen
 
 🚙 Color Friday: Blue
 
+I've already covered scales for Day 12, but who cannot resist emphasizing another cartographic point when given the opportunity?!
+
+<img src="https://user-images.githubusercontent.com/116127236/199860387-c6d050a9-7a39-4d7b-b5f4-c19a8ff9a390.jpeg" width="700" >
+
+Data Credits: [US Wind Turbine Data](https://emp.lbl.gov/publications/us-wind-turbine-database-files)
+
 ## Day Nineteen
 
 🗺️ Globe
+
+[RISE](https://rise.esmap.org) (Regulatory Indicators for Sustainable Energy) is a set of indicators managed by [ESMAP](https://esmap.org), as part of the World Bank, to "help compare national policy and regulatory frameworks for sustainable energy." Indicators are grouped into four pillars: Electricity Access, Clean Cooking, Renewable Energy, and Energy Efficiency. 
+
+For this map, I chose to look at Energy Efficiency indicator #11 - Carbon Pricing and Monitoring
+
+![daynineteen_map.pdf](https://github.com/solloyd/30DayMapChallengeDRAFT/files/9842679/daynineteen_map.pdf)
+
+Data Credit: [RISE](https://rise.esmap.org/analytics)
+
+<details><summary>Click Here for Day Nineteen's Code!</summary>
+<p>
+
+### Find below the code used for this map, and click here for the [RISE Energy Efficiency Dataset](https://drive.google.com/file/d/1YFZ3QYsqed9R5uwYzNm7kAvqbb36pHoh/view?usp=sharing) !
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+
+        
+EnergyEfficiency <- read.csv("~/ADD YOUR PATH HERE/energyefficiency.csv") 
+
+                    
+mapdata19 <- map_data("world") 
+mapdata19 <- left_join(mapdata19, EnergyEfficiency, by="region")
+
+#unique(mapdata19$region)       #this helps match the country names in the RISE dataset to the country names in the map_data() dataset
+
+daynineteen <- ggplot(mapdata19, aes(long, lat, group = group)) +
+  geom_polygon(aes(fill = factor(EE11)), color = alpha("black"), size = 0.15) +
+coord_fixed() +
+  theme_light() +
+  ggtitle("Carbon Pricing and Monitoring, Global RISE Scores (2019)") +
+  theme(#axis.line = element_blank(), 
+        axis.text = element_blank(),
+        axis.ticks = element_blank(), 
+        axis.title = element_blank(),
+        plot.title = element_text(size=15, face="bold.italic", hjust = 0.5), 
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        legend.justification = c(0,0), legend.position=c(0.05,0.15),
+        legend.background = element_rect(fill="grey92", size=.5, linetype="dotted")
+        ) +
+  scale_fill_brewer(palette = "Spectral", 
+                    guide = guide_legend(reverse = TRUE, title = "RISE Score"), 
+                    labels=c("0", "50", "100", "No Data"))
+daynineteen
+
+```
+
+</p>
+</details>
 
 ## Day Twenty
 
