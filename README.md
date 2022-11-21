@@ -465,7 +465,7 @@ daynineteen
 
 🤟 "My favorite..."
 
-My favorite... Great Lake! As someone who grew up on the coast going to the Atlantic Ocean almost everyday through the summer, I'm constantly impressed by the Great Lakes. Lake Superior is my favorite of the Great Lakes - it is the largest freshwater lake in the world by surface area, and has more water than the other four Great Lakes combined!
+Coming from someone who spent most of my youth at salty beaches and on brackish rivers, I'm constantly impressed by the Great Lakes! Lake Superior is my favorite of the Great Lakes - it is the largest freshwater lake in the world by surface area, and has more water than the other four Great Lakes combined.
 
 <img src="https://user-images.githubusercontent.com/116127236/202937169-553324dc-fc19-449a-8752-6a5b515a6e31.jpg" width="800" >
 
