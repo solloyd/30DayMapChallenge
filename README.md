@@ -7,7 +7,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | Software      | Count*         | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  5            | 1,3,10,12,19             |
-| QGIS          |   9            |  4,5,6,8,9,11,14,18,20             |
+| QGIS          |   10            |  4,5,6,8,9,11,14,18,20,21             |
 | ArcPro        |   1            |  2             |
 ###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
 
@@ -474,6 +474,18 @@ Data Credits: [NOAA - Lake Superior Bathymetry](https://www.ngdc.noaa.gov/mgg/gr
 ## Day Twenty-One
 
 💻 Data: Kontour Population Dataset
+
+The theme for today has been: if at first you don't succeed - try, try again🙁 I first made a map of Canada's population centers, but it was not coming together cartographically... I've provided that final draft below. I then pivoted to doing a similar map of Michigan, and it was FINALLY clicking. I sent a picture to my friend and colleague Alicia who is also doing this challenge, AND THEN QGIS CRASHED😭 so I entirely remade the map.
+
+Please enjoy this labor of love:
+
+<img src="https://user-images.githubusercontent.com/116127236/203182557-18f01772-9158-4d7f-9922-0c0e8eb451e7.png" width="500" >
+
+Canada draft:
+
+<img src="https://user-images.githubusercontent.com/116127236/203182620-e96c16c8-ea3f-42c2-8d9e-2f0a673e2879.jpg" width="800" >
+
+Data Credits: [Kontour Population Dataset](https://data.humdata.org/dataset/kontur-population-dataset), ESRI Basemap, [Michigan Cities by Population](https://www.michigan-demographics.com/cities_by_population)
 
 ## Day Twenty-Two
 
