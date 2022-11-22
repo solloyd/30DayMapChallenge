@@ -6,7 +6,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 
 | Software      | Count*         | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  5            | 1,3,10,12,19             |
+| R             |  6            | 1,3,10,12,19,22             |
 | QGIS          |   10            |  4,5,6,8,9,11,14,18,20,21             |
 | ArcPro        |   1            |  2             |
 ###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
@@ -490,6 +490,50 @@ Data Credits: [Kontour Population Dataset](https://data.humdata.org/dataset/kont
 ## Day Twenty-Two
 
 :o: *NULL* 
+
+Null (adj.) having or associated with the value zero. 
+
+[Sustainable Development Goal 7.1.2](https://sdg.tracking-progress.org/indicator/7-1-2-population-with-primary-reliance-on-clean-fuels-and-technology/) aims to ensure universal access to affordable, reliable and modern energy services, specifically clean fuels and technologies. The International Energy Agency (IEA) provides projections for this SDG through 2050.  **This map illustrates that with the current level of funding in the sector, and the projected policies, this SDG will not be reached by 2030 for any sub-Saharan country.**
+
+<img src="https://github.com/solloyd/30DayMapChallengeDRAFT/files/9892572/daytwentytwo_map.pdf" width="650" >
+
+Data Credits: [IEA](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Sustainable%20Development%20Goals&indicator=SDG712), [ggplot2 resource](https://ggplot2-book.org/maps.html)
+
+<details><summary>Click Here for Day Twenty-Two's Code!</summary>
+<p>
+
+### Find below the code used for this map, and click here for the [Africa Clean Cooking Access Dataset](https://drive.google.com/file/d/1K6_roQEkf_d_DC8YL2-iIxy61s8S8yHB/view?usp=sharing) I created :)
+
+```ruby
+library(ggplot2)              
+library(tidyverse)           
+library(viridis)
+library(RColorBrewer)
+
+CookingAccess <- read.csv("~/ADD YOUR PATH HERE/cookingaccessafrica.csv") 
+
+
+mapdata <- map_data("world") 
+mapdata <- right_join(mapdata, CookingAccess, by="region")
+
+unique(mapdata$region) #This is to help match the country names in map_data() to those in my file (i.e., Eswatini or Swaziland)
+           
+daytwentytwo <- ggplot(mapdata, aes(long, lat, group = group)) +
+  geom_polygon(aes(fill = SDG2030), colour = alpha("black"), size = 0.15) +
+coord_fixed() +
+  theme_minimal() +
+  ggtitle("Countries with Universal Access to Clean Cooking by 2030 (SDG 7.1.2)") +
+  theme(axis.line = element_blank(), axis.text = element_blank(),
+        axis.ticks = element_blank(), axis.title = element_blank(),
+        plot.title = element_text(size=12, face="bold.italic"), panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  scale_fill_manual(values = c("grey", "white",
+                               "darkgrey"), guide = guide_legend(reverse = FALSE, title = ""))
+daytwentytwo
+  
+```
+        
+</p>
+</details>
 
 ## Day Twenty-Three
 
