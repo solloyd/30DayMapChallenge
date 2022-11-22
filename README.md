@@ -9,6 +9,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | R             |  6            | 1,3,10,12,19,22             |
 | QGIS          |   10            |  4,5,6,8,9,11,14,18,20,21             |
 | ArcPro        |   1            |  2             |
+
 ###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
 
 ##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
