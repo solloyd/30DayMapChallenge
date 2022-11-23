@@ -4,11 +4,11 @@ This is a collection of my #30daymapchallenge for 2022! For more information on 
 
 I chose the theme :low_brightness:**energy**:low_brightness: as a central thread to this challenge! This is not a requirement, I could make completely different maps each day, but would like to explore new energy datasets, and ones I haven't had an opportunity to work with recently. Additionally, I'm setting out to use this challenge as a way to strengthen my R mapping skills, and completely learn QGIS, as basically all of my formal education was taught using ArcMap and then ArcPro from ESRI.
 
-| Software      | Count*         | Days          |
+| Software      | Count*        | Days          |
 | ------------- | ------------- | ------------- |
-| R             |  6            | 1,3,10,12,19,22             |
-| QGIS          |   10            |  4,5,6,8,9,11,14,18,20,21             |
-| ArcPro        |   1            |  2             |
+| R             |  6            | 1,3,10,12,19,22    |
+| QGIS          |  14            |  4,5,6,8,9,11,14,18,20,21,23,25,26,29           |
+| ArcPro        | 1             | 2             |
 
 ###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
 
@@ -540,17 +540,43 @@ daytwentytwo
 
 🏃‍♀️ Movement
 
+Today I want to cover a topic that is really not getting enough media coverage... why is OpenStreetMap lacking so much zipline data!? And better yet - why are there not MORE ziplines in the US?
+
+I've normalized this map by area so that you can more accurately see the zipline distribution by area of each state rather than the fact that the bigger states will have more ziplines than smaller states.
+
+*Please no one email me about how the data is inaccurate, and you've personally been on a zipline in X state. Me too.*
+
+<img src="https://user-images.githubusercontent.com/116127236/203403010-7c6d4348-4a73-4a35-a5f1-894f6844de0a.jpg" width="700" >
+
+Data Credits: OpenStreetMap
+
 ## Day Twenty-Four
 
 ✴️ Fantasy
 
 ## Day Twenty-Five
 
-💕 Color Friday: 2 colors
+💕 💚 💙 Color Friday: 2 colors
+
+Almost 38% of Namibia's terrestrial and inland waters, and almost 2% of their off-shore waters are classified as protected areas. This is incredibly important for protecting their above ground biomass, which are valuable carbon sinks. In developing economies, land degredation and deforestation are common when biomass collection is vital for cooking and heating fuel sources.
+
+<img src="https://user-images.githubusercontent.com/116127236/198733836-1651a353-bbb5-4c9a-af6e-21eafff67f05.jpg" width="550" >
+
+Data credit: UNEP-WCMC and IUCN (2022), Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM) [Online], October 2022, Cambridge, UK: UNEP-WCMC and IUCN. Available at: www.protectedplanet.net.
+
+Explore more of the [data here](https://www.protectedplanet.net/country/NAM)!
 
 ## Day Twenty-Six
 
-🇮🇨 Island(s)
+🇮🇩 Island(s)
+
+For Day 26, I made a map of (arguably) my favorite island nation: INDONESIA🇮🇩 ! I studied abroad in Indonesia in college, and fell in love with the culture, people, and food (looking at you nasi goreng👀). Being an equatorial island nation, Indonesia has a lot of PV (photovolatic) potential, which is what I explored in this map!
+
+This was the first map I ever made with QGIS, and I was impressed with how easy it was to pick up with my familiarity with ESRI products! It has a long way to go in terms of design, but I was super proud to have a finished product.
+
+<img src="https://user-images.githubusercontent.com/116127236/198459359-9c6e21bc-34a6-4f50-b9e9-1d5f9171f4fb.jpeg" width="800" >
+
+Data Credit: NREL (National Renewable Energy Laboratory). RE Data Explorer. Indonesia Potential Photovoltaic Electricity Production accessed 27 Oct 2022. Golden, CO: National Renewable Energy Laboratory. Check out more data like this on the [RE Data Explorer](https://www.re-explorer.org/re-data-explorer/data-library/layers)
 
 ## Day Twenty-Seven
 
@@ -563,6 +589,10 @@ daytwentytwo
 ## Day Twenty-Nine
 
 :basecamp: "Out of my comfort zone"
+
+This whole challenge has been out of my comfort zone! For today, I'm showcasing the maps I've made and the distribution of the data!
+
+<img src="https://user-images.githubusercontent.com/116127236/203458358-6c9b34e0-c05b-4e45-bea7-4f88eccbe188.png" width="700" >
 
 ## Day Thirty
 
