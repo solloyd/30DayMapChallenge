@@ -480,7 +480,7 @@ The theme for today has been: if at first you don't succeed - try, try again🙁
 
 Please enjoy this labor of love:
 
-<img src="https://user-images.githubusercontent.com/116127236/203182557-18f01772-9158-4d7f-9922-0c0e8eb451e7.png" width="500" >
+<img src="https://user-images.githubusercontent.com/116127236/203554112-514e2146-18b5-40a6-8e1d-08d44a6a16d4.png" width="500" >
 
 Canada draft:
 
