@@ -600,7 +600,7 @@ Data Credits: [Pitchfork.com](https://pitchfork.com/features/lists-and-guides/mo
 
 This whole challenge has been out of my comfort zone! For today, I'm showcasing the maps I've made and the distribution of the data!
 
-<img src="https://user-images.githubusercontent.com/116127236/203458358-6c9b34e0-c05b-4e45-bea7-4f88eccbe188.png" width="700" >
+<img src="https://user-images.githubusercontent.com/116127236/204172050-e2fee7c1-c1a6-4d72-ae47-b4ab526aa8a5.png" width="700" >
 
 ## Day Thirty
 
