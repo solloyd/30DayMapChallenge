@@ -586,7 +586,7 @@ Today I was inspired by Pitchfork.com's article [The 43 Most Anticipated Tours o
 
 <img src="https://user-images.githubusercontent.com/116127236/204169734-73c54253-a1e2-48a0-b6d5-efced6492d4d.png" width="750" >
 
-<img src="https://user-images.githubusercontent.com/116127236/204169738-431acf59-504f-4c8f-9c74-062e940e3c02.png" width="750" >
+<img src="https://user-images.githubusercontent.com/116127236/204170799-42f5547b-8939-4c61-94c9-a459591d683c.png" width="750" >
 
 Data Credits: [Pitchfork.com](https://pitchfork.com/features/lists-and-guides/most-anticipated-tours/)
 
