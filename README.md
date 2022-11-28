@@ -7,7 +7,7 @@ I chose the theme :low_brightness:**energy**:low_brightness: as a central thread
 | Software      | Count*        | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  6            | 1,3,10,12,19,22    |
-| QGIS          |  14            |  4,5,6,8,9,11,14,18,20,21,23,25,26,29           |
+| QGIS          |  14            |  4,5,6,8,9,11,14,18,20,21,23,25,26,27,29           |
 | ArcPro        | 1             | 2             |
 
 ###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
@@ -581,6 +581,14 @@ Data Credit: NREL (National Renewable Energy Laboratory). RE Data Explorer. Indo
 ## Day Twenty-Seven
 
 🎼 Music
+
+Today I was inspired by Pitchfork.com's article [The 43 Most Anticipated Tours of Fall 2022](https://pitchfork.com/features/lists-and-guides/most-anticipated-tours/), and first made a map of where these artists hail from, but found it to be a boring concept on paper and started over (but you can find that draft below my final). I then pivoted to where these tours held shows, and viola!
+
+<img src="https://user-images.githubusercontent.com/116127236/204169734-73c54253-a1e2-48a0-b6d5-efced6492d4d.png" width="750" >
+
+<img src="https://user-images.githubusercontent.com/116127236/204169738-431acf59-504f-4c8f-9c74-062e940e3c02.png" width="750" >
+
+Data Credits: [Pitchfork.com](https://pitchfork.com/features/lists-and-guides/most-anticipated-tours/)
 
 ## Day Twenty-Eight
 
