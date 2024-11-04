@@ -7,7 +7,7 @@ This year I am starting from scratch, and develing into my personal interests ve
 | Software      | Count*        | Days          |
 | ------------- | ------------- | ------------- |
 | R             |  0            |     |
-| QGIS          |  1            |  1           |
+| QGIS          |  2            |  1,2           |
 | ArcPro        | 0             |              |
 
 ###### *Not everyday required making a map in these softwares (i.e., Day Ten: Pen & Paper), which is why the total will be less than 30
@@ -28,6 +28,11 @@ Data Credits: [MI DNR Wildland Fire Application](https://www.mcgi.state.mi.us/wi
 
 〰️ Lines
 
+I couldn't pass up an opportunity to mention that I ran my first marathon this year😂🏃‍♀️ On top of covering 26.2+ miles in one go, I completed a trail marathon, which means it was all covered on hiking trails. This map depicts the exact course that I covered and I've highlighted two insets that show the contrast this course had - at times we were marched straight up a "hill" and other times it was flowy trails in a more open field.
+
+![2024_DayTwo](https://github.com/user-attachments/assets/46592dbf-7808-4efc-b229-3e149e5ef52a)
+
+Data Credits: [USGS Contours] (https://www.sciencebase.gov/catalog/item/5a68b58ee4b06e28e9c70c00), [NCT Marathon Course] (https://northcountrytrailrun.com/maps-spectators-and-pacers/)
 
 ## Day Three
 
