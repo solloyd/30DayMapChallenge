@@ -14,3 +14,8 @@ This year I am starting from scratch, and develing into my personal interests ve
 
 ##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
 
+
+## Day One
+
+📍 Points. 
+
