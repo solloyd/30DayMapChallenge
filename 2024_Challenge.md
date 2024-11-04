@@ -17,7 +17,7 @@ This year I am starting from scratch, and develing into my personal interests ve
 
 ## Day One
 
-📍 Points. 
+📍 Points
 
 *Cue Smokey* ONLY YOU CAN PREVENT WILDFIRES! But seriously, Michiganders, campfires being far and away the largest wildfire burn area in 2023 is something WE have the power to decrease. Let's recreate responsibly and make sure any fires lit are extinguished and never left alone.
 ![Day One - Points](https://github.com/user-attachments/assets/d0f23511-f53e-407c-b580-1ce9cfde7973)
@@ -27,12 +27,12 @@ Data Credits: [MI DNR Wildland Fire Application](https://www.mcgi.state.mi.us/wi
 
 ## Day Two
 
-〰️ Lines. 
+〰️ Lines
 
 
 ## Day Three
 
-🔲 Polygons.
+🔲 Polygons
 
 
 ## Day Four
@@ -42,7 +42,7 @@ Data Credits: [MI DNR Wildland Fire Application](https://www.mcgi.state.mi.us/wi
 
 ## Day Five
 
-🚶‍♀️ A journey.
+🚶‍♀️ A journey
 
 
 ## Day Six
