@@ -32,7 +32,7 @@ I couldn't pass up an opportunity to mention that I ran my first marathon this y
 
 ![2024_DayTwo](https://github.com/user-attachments/assets/46592dbf-7808-4efc-b229-3e149e5ef52a)
 
-Data Credits: [USGS Contours] (https://www.sciencebase.gov/catalog/item/5a68b58ee4b06e28e9c70c00), [NCT Marathon Course] (https://northcountrytrailrun.com/maps-spectators-and-pacers/)
+Data Credits: [USGS Contours](https://www.sciencebase.gov/catalog/item/5a68b58ee4b06e28e9c70c00), [NCT Marathon Course](https://northcountrytrailrun.com/maps-spectators-and-pacers/)
 
 ## Day Three
 
