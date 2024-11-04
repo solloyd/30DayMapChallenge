@@ -27,4 +27,31 @@ Data Credits: [MI DNR Wildland Fire Application](https://www.mcgi.state.mi.us/wi
 
 ## Day Two
 
-📍 Points. 
+〰️ Lines. 
+
+
+## Day Three
+
+🔲 Polygons.
+
+
+## Day Four
+
+💠 Hexagons
+
+
+## Day Five
+
+🚶‍♀️ A journey.
+
+
+## Day Six
+
+🖼️ Raster
+
+
+## Day Twenty
+
+📖 Data: OpenStreetMap
+
+
