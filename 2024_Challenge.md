@@ -19,3 +19,12 @@ This year I am starting from scratch, and develing into my personal interests ve
 
 📍 Points. 
 
+*Cue Smokey* ONLY YOU CAN PREVENT WILDFIRES! But seriously, Michiganders, campfires being far and away the largest wildfire burn area in 2023 is something WE have the power to decrease. Let's recreate responsibly and make sure any fires lit are extinguished and never left alone.
+![Day One - Points](https://github.com/user-attachments/assets/d0f23511-f53e-407c-b580-1ce9cfde7973)
+
+
+Data Credits: [MI DNR Wildland Fire Application](https://www.mcgi.state.mi.us/wildfire/index.html), [Wildfire & Prescribed Burn Locations (2023)](https://gis-midnr.opendata.arcgis.com/datasets/midnr::wildfire-prescribed-burn-locations-2023/explore?location=43.969648%2C-85.067508%2C6.82)
+
+## Day Two
+
+📍 Points. 
