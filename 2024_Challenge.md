@@ -38,11 +38,23 @@ Data Credits: [USGS Contours](https://www.sciencebase.gov/catalog/item/5a68b58ee
 
 🔲 Polygons
 
+If you've ever been to Michigan and attempted to define where "Up North" starts, you've probably heard the farmland reasoning. This claims that when the bulk of the farmland in the lower peninsula falls away as you drive north, then you are officially "Up North". So it would make sense that forests and farmlands make up the largest land use classes. 
+
+![DayThree](https://github.com/user-attachments/assets/075b3622-b120-4805-a4b1-eed5b51e9bd2)
+
+Data Credits: [© OpenStreetMap contributors](http://download.geofabrik.de/north-america/us.html), [Knudson 2023](https://www.canr.msu.edu/productcenter/uploads/files/landuse.pdf)
 
 ## Day Four
 
 💠 Hexagons
 
+Great Lake State? Great *Park* State! One of the biggest factors that has kept be in Michigan following my graduate studies at U of Michigan, is the ever abundant opportunities to enjoy beautiful public spaces! In Michigan you are never more than an hour from a Great Lake, and based on this map, you're even closer to a park (or ten!).
+
+![DayFour](https://github.com/user-attachments/assets/ac66b63f-a1fa-4992-9432-445cfce0524e)
+
+Data Credits: [© OpenStreetMap contributors](http://download.geofabrik.de/north-america/us.html)
+
+BONUS: (Mainly so I do not forget next time I try this technique) Building a hexagon grid and then binning it yourself is super simple in QGIS with the 'mmqgis' plug in. First you can make the grid through this plug in, clip it to a layer (ie the outline of Michigan), and thne use Vector>Points in Polygons to count and add a new layer to your project.
 
 ## Day Five
 
