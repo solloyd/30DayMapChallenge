@@ -10,7 +10,7 @@ This year I am starting from scratch, and develing into my personal interests ve
 | QGIS          |  1            |  1           |
 | ArcPro        | 0             |              |
 
-###### *Not everyday required making a map in these softwares (i.e., Day Seventeen: A map without a computer), which is why the total will be less than 30
+###### *Not everyday required making a map in these softwares (i.e., Day Ten: Pen & Paper), which is why the total will be less than 30
 
 ##### You can find my publically available GIS portfolio [on my website](https://solloyd.wixsite.com/gisportfolio)
 
