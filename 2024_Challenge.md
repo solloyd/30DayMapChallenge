@@ -62,7 +62,7 @@ BONUS: (Mainly so I do not forget next time I try this technique) Building a hex
 
 The 2,190 mile Appalachian Trail Fastest Known Time (FKT) was recently broken by Tara Dower (+her team dubbed 'Chump Change'). Her time was 40d 18h 6m 0s, beating the previous record by 13 hours, and signifying the third time a woman has held the overall AT record🔥💪
 
-Even more impressive is how she overcame a mileage deficit in New England (Note the discrepency between the trail halfway point and Tara's halfway point on time). Standing on the shoulders of giants - Jennifer Pharr Davis, Karel Sabbe, Karl Metzel, Heather Anderson, and so many others - I look forward to more women setting the bar on this historic long trail.
+Even more impressive is how she overcame a mileage deficit in New England (Note the discrepency between the trail halfway point and Tara's halfway point on time). Standing on the shoulders of giants - Jennifer Pharr Davis, Karel Sabbe, Karl Metzel, Heather Anderson, and so many others - I look forward to more women raising the bar on this historic long trail.
 
 ![DayFive_FKT3](https://github.com/user-attachments/assets/035dd41c-1f11-4037-9bb3-d61bc0a14b79)
 
